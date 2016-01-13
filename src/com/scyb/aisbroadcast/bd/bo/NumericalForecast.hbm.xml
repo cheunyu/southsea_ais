@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.scyb.aisbroadcast.bd.bo.NumericalForecast" table="NUMERICAL_FORECAST" schema="SOUTHSEA">
+        <id name="guid">
+            <column name="GUID" sql-type="varchar2" length="64" not-null="true"/>
+            <generator class="uuid"/>
+        </id>
+        <property name="forecastTime">
+            <column name="FORECAST_TIME" sql-type="varchar2" length="32"/>
+        </property>
+        <property name="windSpeedList">
+            <column name="WIND_SPEED_LIST" sql-type="varchar2" length="32"/>
+        </property>
+        <property name="windDirectionList">
+            <column name="WIND_DIRECTION_LIST" sql-type="varchar2" length="32"/>
+        </property>
+        <property name="waterSpeedList">
+            <column name="WATER_SPEED_LIST" sql-type="varchar2" length="32"/>
+        </property>
+        <property name="waterDirectionList">
+            <column name="WATER_DIRECTION_LIST" sql-type="varchar2" length="32"/>
+        </property>
+        <property name="waveHighList">
+            <column name="WAVE_HIGH_LIST" sql-type="varchar2" length="32"/>
+        </property>
+        <property name="waveDirectionList">
+            <column name="WAVE_DIRECTION_LIST" sql-type="varchar2" length="32"/>
+        </property>
+        <property name="bdMsg">
+            <column name="BD_MSG" sql-type="varchar2" length="200"/>
+        </property>
+        <property name="createTime" insert="false" update="false">
+            <column name="CREATE_TIME" sql-type="timestamp(6)" default="CURRENT_TIMESTAMP"/>
+        </property>
+        <property name="mmsi">
+            <column name="MMSI" sql-type="varchar2" length="32"/>
+        </property>
+    </class>
+</hibernate-mapping>

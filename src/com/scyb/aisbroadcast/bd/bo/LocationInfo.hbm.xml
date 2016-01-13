@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.scyb.aisbroadcast.bd.bo.LocationInfo" table="LOCATION_INFO" schema="SOUTHSEA">
+        <id name="guid">
+            <column name="GUID" sql-type="varchar2" length="64" not-null="true"/>
+            <generator class="uuid"/>
+        </id>
+        <property name="msgNo">
+            <column name="MSG_NO" sql-type="varchar2" length="32"/>
+        </property>
+        <property name="model">
+            <column name="MODEL" sql-type="varchar2" length="32"/>
+        </property>
+        <property name="latlon">
+            <column name="LATLON" sql-type="varchar2" length="400"/>
+        </property>
+        <property name="hexMsg">
+            <column name="HEX_MSG" sql-type="varchar2" length="400"/>
+        </property>
+        <property name="createTime" insert="false" update="false">
+            <column name="CREATE_TIME" sql-type="timestamp(6)" default="CURRENT_TIMESTAMP"/>
+        </property>
+    </class>
+</hibernate-mapping>

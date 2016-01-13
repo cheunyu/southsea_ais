@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.scyb.aisbroadcast.bd.bo.GeneralForecast" table="GENERAL_FORECAST" schema="SOUTHSEA">
+        <id name="guid">
+            <column name="GUID" sql-type="varchar2" length="64" not-null="true"/>
+            <generator class="uuid"/>
+        </id>
+        <property name="mmsi">
+            <column name="MMSI" sql-type="varchar2" length="32"/>
+        </property>
+        <property name="waveHigh">
+            <column name="WAVE_HIGH" sql-type="varchar2" length="32"/>
+        </property>
+        <property name="waterTemperature">
+            <column name="WATER_TEMPERATURE" sql-type="varchar2" length="32"/>
+        </property>
+        <property name="tideHighTime">
+            <column name="TIDE_HIGH_TIME" sql-type="varchar2" length="32"/>
+        </property>
+        <property name="tideHigh">
+            <column name="TIDE_HIGH" sql-type="varchar2" length="32"/>
+        </property>
+        <property name="tideLowTime">
+            <column name="TIDE_LOW_TIME" sql-type="varchar2" length="32"/>
+        </property>
+        <property name="tideLow">
+            <column name="TIDE_LOW" sql-type="varchar2" length="32"/>
+        </property>
+        <property name="bdMsg">
+            <column name="BD_MSG" sql-type="varchar2" length="200"/>
+        </property>
+        <property name="createTime" type="java.sql.Timestamp" generated="insert" not-null="true">
+            <column name="CREATE_TIME" sql-type="timestamp" default="CURRENT_TIMESTAMP"/>
+        </property>
+    </class>
+</hibernate-mapping>

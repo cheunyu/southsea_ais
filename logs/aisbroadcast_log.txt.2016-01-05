@@ -1,0 +1,34 @@
+01-05 08:55:36.663 0    INFO  [Thread-2] com.scyb.aisbroadcast.common.util.AisSerialController     - AIS打开串口38400
+01-05 08:56:01.494 0    INFO  [Thread-2] com.scyb.aisbroadcast.common.util.AisSerialController     - AIS打开串口38400
+01-05 08:56:33.542 0    INFO  [Thread-2] com.scyb.aisbroadcast.common.util.AisSerialController     - AIS打开串口38400
+01-05 08:58:01.755 0    INFO  [Thread-3] com.scyb.aisbroadcast.common.util.AisSerialController     - AIS打开串口38400
+01-05 08:58:15.084 0    INFO  [Thread-3] com.scyb.aisbroadcast.common.util.AisSerialController     - AIS打开串口38400
+01-05 09:00:28.846 0    INFO  [Thread-3] com.scyb.aisbroadcast.common.util.AisSerialController     - AIS打开串口38400
+01-05 09:03:39.326 0    INFO  [Thread-3] com.scyb.aisbroadcast.common.util.AisSerialController     - AIS打开串口38400
+01-05 09:03:53.452 0    INFO  [Thread-3] com.scyb.aisbroadcast.common.util.AisSerialController     - AIS打开串口38400
+01-05 09:04:49.509 56057 INFO  [Timer-0] com.scyb.aisbroadcast.common.util.TimerNumericalBroadcast     - 1993-07-28 20:31:34
+01-05 09:04:49.510 56058 INFO  [Timer-0] com.scyb.aisbroadcast.common.util.TimerNumericalBroadcast     - 1993-07-28 20:32:59
+01-05 09:04:49.510 56058 INFO  [Timer-0] com.scyb.aisbroadcast.common.util.TimerNumericalBroadcast     - 1993-07-28 20:34:23
+01-05 09:04:49.511 56059 INFO  [Timer-0] com.scyb.aisbroadcast.common.util.TimerNumericalBroadcast     - 1993-07-28 20:38:36
+01-05 09:04:49.511 56059 INFO  [Timer-0] com.scyb.aisbroadcast.common.util.TimerNumericalBroadcast     - 1993-07-28 20:47:02
+01-05 09:04:49.511 56059 INFO  [Timer-0] com.scyb.aisbroadcast.common.util.TimerNumericalBroadcast     - 1993-07-28 20:52:40
+01-05 09:04:49.512 56060 INFO  [Timer-0] com.scyb.aisbroadcast.common.util.TimerNumericalBroadcast     - 1993-07-28 20:58:17
+01-05 09:04:49.512 56060 INFO  [Timer-0] com.scyb.aisbroadcast.common.util.TimerNumericalBroadcast     - 2015-12-15 02:00:00
+01-05 09:04:49.513 56061 INFO  [Timer-0] com.scyb.aisbroadcast.common.util.TimerNumericalBroadcast     - 2015-12-15 08:00:00
+01-05 09:04:49.513 56061 INFO  [Timer-0] com.scyb.aisbroadcast.common.util.TimerNumericalBroadcast     - 2015-12-15 14:00:00
+01-05 09:04:49.513 56061 INFO  [Timer-0] com.scyb.aisbroadcast.common.util.TimerNumericalBroadcast     - 2015-12-15 20:00:00
+01-05 09:04:49.514 56062 INFO  [Timer-0] com.scyb.aisbroadcast.common.util.TimerNumericalBroadcast     - 2015-12-16 02:00:00
+01-05 09:04:49.514 56062 INFO  [Timer-0] com.scyb.aisbroadcast.common.util.TimerNumericalBroadcast     - 2015-12-16 08:00:00
+01-05 09:04:49.514 56062 INFO  [Timer-0] com.scyb.aisbroadcast.common.util.TimerNumericalBroadcast     - 2015-12-16 14:00:00
+01-05 09:04:49.515 56063 INFO  [Timer-0] com.scyb.aisbroadcast.common.util.TimerNumericalBroadcast     - 2015-12-16 20:00:00
+01-05 09:04:49.515 56063 INFO  [Timer-0] com.scyb.aisbroadcast.common.util.TimerNumericalBroadcast     - 2015-12-17 20:00:00
+01-05 09:06:58.461 1    INFO  [Thread-3] com.scyb.aisbroadcast.common.util.AisSerialController     - AIS打开串口38400
+01-05 09:07:56.279 57819 INFO  [Timer-0] com.scyb.aisbroadcast.common.util.TimerNumericalBroadcast     - 2015-12-16 02:00:00
+01-05 09:11:33.458 0    INFO  [Thread-3] com.scyb.aisbroadcast.common.util.AisSerialController     - AIS打开串口38400
+01-05 09:12:30.381 56923 INFO  [Timer-0] com.scyb.aisbroadcast.common.util.TimerNumericalBroadcast     - 2015-12-16 02:00:00
+01-05 09:28:01.905 0    INFO  [Thread-3] com.scyb.aisbroadcast.common.util.AisSerialController     - AIS打开串口38400
+01-05 09:28:59.960 58055 INFO  [Timer-0] com.scyb.aisbroadcast.common.util.TimerNumericalBroadcast     - 2015-12-16 02:00:00
+01-05 10:06:21.054 0    INFO  [Thread-3] com.scyb.aisbroadcast.common.util.AisSerialController     - AIS打开串口38400
+01-05 10:07:18.293 57239 INFO  [Timer-0] com.scyb.aisbroadcast.common.util.TimerNumericalBroadcast     - 2015-12-16 02:00:00
+01-05 10:09:10.720 0    INFO  [Thread-3] com.scyb.aisbroadcast.common.util.AisSerialController     - AIS打开串口38400
+01-05 10:10:07.385 56665 INFO  [Timer-0] com.scyb.aisbroadcast.common.util.TimerNumericalBroadcast     - 2015-12-16 02:00:00

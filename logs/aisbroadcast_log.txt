@@ -1,0 +1,1 @@
+01-13 09:09:27.798 0    INFO  [Thread-3] com.scyb.aisbroadcast.common.util.AisSerialController     - AIS打开串口38400
